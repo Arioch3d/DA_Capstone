@@ -18,8 +18,11 @@ I would also like to try and use BeautifulSoap to webscrape data from the web to
 
 
 Datasets were found at the following locations.  I may not use all of them, but just in case I wanted to make sure I had a link for them.
+
 Superhero Power Analytics: https://www.kaggle.com/datasets/shreyasur965/super-heroes-dataset/data?select=superheroes_data.csv (sourced from superheroapi.com)
+
 Comic Characters: https://www.kaggle.com/datasets/vipulgote4/comic-characters/data?select=marvel-wikia-data_csv.csv (Both DC & Marvel found here)
+
 Superhero Characters and Powers: https://www.kaggle.com/datasets/baraazaid/superherodb?resource=download (plan on using this as a look-up to display the abilities of each hero)
 
 I would like to try and use BeautifulSoup to scrub superheroapi.com into my database to ensure I have the latest data for each character.
