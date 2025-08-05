@@ -131,8 +131,7 @@ Below are the main columns used in the superhero datasets and their descriptions
 
 ## Data Summary: Total Rows and Columns per Table
 
-Below is a summary of the main tables/datasets used in this project, including the number of rows (records) and columns (fields) for each.  
-**Note:** The actual numbers may vary if you update your data files. To get the latest counts, run the code snippet below in your notebook.
+Below is a summary of the main tables/datasets used in this project, including the number of rows (records) and columns (fields) for each.
 
 | Table / CSV File             | Rows (Records) | Columns |
 | ---------------------------- | :------------: | :-----: |
