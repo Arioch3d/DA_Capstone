@@ -134,8 +134,8 @@ Below are the main columns used in the superhero datasets and their descriptions
 Below is a summary of the main tables/datasets used in this project, including the number of rows (records) and columns (fields) for each.  
 **Note:** The actual numbers may vary if you update your data files. To get the latest counts, run the code snippet below in your notebook.
 
-| Table / CSV File             | Rows (Records) | Columns | Main Columns (see Data Dictionary above) |
-| ---------------------------- | :------------: | :-----: | ---------------------------------------- |
+| Table / CSV File             | Rows (Records) | Columns |
+| ---------------------------- | :------------: | :-----: |
 | dc-wikia-data_updated.csv    |      6896      |   11    |
 | marvel-wikia-data_update.csv |     16376      |   11    |
 | superheroes_data.csv         |      734       |   27    |
