@@ -54,7 +54,82 @@ Place the following CSV files in a `data/` folder in your project directory:
 
 ---
 
-### 3. **How to Use the Notebook**
+## 3. **Data Dictionary**
+
+Below are the main columns used in the superhero datasets and their descriptions:
+
+### DC & Marvel Comics Data (`dc-wikia-data_updated.csv`, `marvel-wikia-data_update.csv`)
+
+| Column Name      | Description                                       |
+| ---------------- | ------------------------------------------------- |
+| id               | Unique identifier for the character               |
+| name             | Character's name                                  |
+| identity         | Secret or public identity status                  |
+| align            | Alignment (good, bad, neutral, etc.)              |
+| eye              | Eye color                                         |
+| hair             | Hair color                                        |
+| sex              | Gender/Sex (Male, Female, etc.)                   |
+| alive            | Living status (living, deceased characters, etc.) |
+| appearances      | Number of comic appearances                       |
+| first_appearance | Issue of first appearance                         |
+| year             | Year of first appearance                          |
+
+### Superheroes Data (`superheroes_data.csv`)
+
+| Column Name       | Description                                |
+| ----------------- | ------------------------------------------ |
+| id                | Unique identifier for the character        |
+| name              | Character's name                           |
+| intelligence      | Intelligence score                         |
+| strength          | Strength score                             |
+| speed             | Speed score                                |
+| durability        | Durability score                           |
+| power             | Power score                                |
+| combat            | Combat ability score                       |
+| full_name         | Full name of the character                 |
+| alter_egos        | Alternate identities                       |
+| aliases           | List of aliases                            |
+| place_of_birth    | Place of birth                             |
+| first_appearance  | Issue of first appearance                  |
+| publisher         | Publisher (DC Comics, Marvel Comics, etc.) |
+| alignment         | Alignment (good, bad, neutral, etc.)       |
+| gender            | Gender/Sex                                 |
+| race              | Race/Species                               |
+| height            | Height (cm)                                |
+| weight            | Weight (kg)                                |
+| eye_color         | Eye color                                  |
+| hair_color        | Hair color                                 |
+| occupation        | Occupation                                 |
+| base              | Base of operations                         |
+| group_affiliation | Group/team affiliations                    |
+| relatives         | Known relatives                            |
+| url               | Reference URL                              |
+
+### Superheroes Powers Data (`superheroes_updated.csv`)
+
+| Column Name  | Description                                |
+| ------------ | ------------------------------------------ |
+| id           | Unique identifier for the character        |
+| Creator      | Publisher (DC Comics, Marvel Comics, etc.) |
+| Durability   | Durability score                           |
+| Equipment    | Equipment used                             |
+| Eye_color    | Eye color                                  |
+| Gender       | Gender/Sex                                 |
+| Hair_color   | Hair color                                 |
+| IQ           | IQ score                                   |
+| Intelligence | Intelligence score                         |
+| Name         | Character's name                           |
+| Occupation   | Occupation                                 |
+| Power        | Power score                                |
+| Relatives    | Known relatives                            |
+| Speed        | Speed score                                |
+| Strength     | Strength score                             |
+| Super_powers | List of super powers                       |
+| Weight       | Weight (kg)                                |
+
+---
+
+### 4. **How to Use the Notebook**
 
 1. **Open `SuperHero.ipynb` in Jupyter Notebook or VS Code.**
 
@@ -70,8 +145,6 @@ Place the following CSV files in a `data/` folder in your project directory:
 
 3. **Key Functions:**
 
-   - **Drop Table:**  
-     Drop any table from the SQLite database if needed and you want to test the table creation and importing process.
    - **hero_gender_distribution():**  
      Prompts for a publisher and displays the gender distribution of heroes in a line chart.
    - **deceased_hero_gender_ratio():**  
@@ -109,12 +182,6 @@ Place the following CSV files in a `data/` folder in your project directory:
 
 - If you encounter errors about missing columns or tables, check that your CSV files match the expected format.
 - If you add new data, re-run the relevant cells to update the database and DataFrames.
-
----
-
-## License
-
-This project is for educational and non-commercial use.
 
 ---
 
