@@ -118,7 +118,7 @@ This project is for educational and non-commercial use.
 
 ---
 
-## I obtained the datasets from the following locations.
+## Data Sources
 
 Superhero Power Analytics: https://www.kaggle.com/datasets/shreyasur965/super-heroes-dataset/data?select=superheroes_data.csv (sourced from superheroapi.com)
 
