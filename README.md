@@ -1,6 +1,8 @@
 # SuperHero Data Analysis Notebook
 
-## Project Overview
+## Objective
+
+I was wondering what the gender spread looks like for comics through time. I also wanted a way to compare information about comic characters between the two major comic companies and if there have been any female characters that are deceased and if so, what's the percent of female to male deaths throughout the years.
 
 ## Overview
 
@@ -56,12 +58,11 @@ When you are finished, deactivate the virtual environment and close the reposito
 ### Setting up the Virtual Environment
 
 Virtual Environment Commands
-| ---------------- | ------------------------------------------------- |
-Command Linux/Mac Windows/GitBash
-Create python3 -m venv venv python -m venv venv
-Activate source venv/bin/activate source venv/Scripts/activate
-Install pip install -r requirements.txt pip install -r requirements.txt
-Deactivate deactivate deactivate
+
+- To Create the Virtual Environment type `python3 -m venv venv`
+- To Activate the Virtual Environment type `venv/Scripts/activate` (For Mac use: `venv/bin/activate`)
+- To Install the requirements, type `pip install -r requirements.txt`
+- To Deactivate the virtual environment type `deactivate`
 
 ### 1. **Requirements**
 
