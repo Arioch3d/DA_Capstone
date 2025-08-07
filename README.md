@@ -27,6 +27,10 @@ This project uses the `SuperHero.ipynb` Jupyter Notebook to analyze and visualiz
   pip install pandas matplotlib seaborn numpy
 `
 
+- Run the `SuperHero.ipynb`
+
+- This program will ask for user input at times.
+
 - When you are finished, deactivate the virtual environment and close the repository folder.
 
 ## Virtual Environment Commands
