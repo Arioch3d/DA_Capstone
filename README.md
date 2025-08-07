@@ -51,6 +51,16 @@ Start by opening `SuperHero.ipynb` Jupyter Notebook to analyze and visualize sup
 
 When you are finished, deactivate the virtual environment and close the repository folder.
 
+---
+
+| Virtual Environment Commands |
+| Command | Linux/Mac | Windows/GitBash |
+| Create | source venv/bin/activate | source venv/Scripts/activate |
+| Activate | Linux/Mac | Windows/GitBash |
+| Install | pip install -r requirements.txt | pip install -r requirements.txt |
+| Deactivate | deactivate | deactivate |
+| ---------------- | ------------------------------------------------- |
+
 ### 1. **Requirements**
 
 - Python 3.x
