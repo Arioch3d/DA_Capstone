@@ -12,22 +12,13 @@ This project uses the `SuperHero.ipynb` Jupyter Notebook to analyze and visualiz
 
 ### Setting up the Virtual Environment
 
-## Virtual Environment Commands
-
-| **Command** | **Linux/Mac**                     | **Windows/GitBash**               |
-| ----------- | --------------------------------- | --------------------------------- |
-| Create      | `python3 -m venv venv`            | `python -m venv venv`             |
-| Activate    | `source venv/bin/activate`        | `source venv/Scripts/activate`    |
-| Install     | `pip install -r requirements.txt` | `pip install -r requirements.txt` |
-| Deactivate  | `deactivate`                      | `deactivate`                      |
-
 ## Project Setup Instructions:
 
 - For the repository and clone to your computer.
 
 - Open the repository folder in a code editor; and create the virtual environment in that folder.
 
-- Create and Activate a Virtual Environment (commands above)
+- Create and Activate a Virtual Environment (commands below)
 
 - Install the requirements.txt file
 
@@ -37,6 +28,15 @@ This project uses the `SuperHero.ipynb` Jupyter Notebook to analyze and visualiz
 `
 
 - When you are finished, deactivate the virtual environment and close the repository folder.
+
+## Virtual Environment Commands
+
+| **Command** | **Linux/Mac**                     | **Windows/GitBash**               |
+| ----------- | --------------------------------- | --------------------------------- |
+| Create      | `python3 -m venv venv`            | `python -m venv venv`             |
+| Activate    | `source venv/bin/activate`        | `source venv/Scripts/activate`    |
+| Install     | `pip install -r requirements.txt` | `pip install -r requirements.txt` |
+| Deactivate  | `deactivate`                      | `deactivate`                      |
 
 ---
 
