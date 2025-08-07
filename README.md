@@ -147,7 +147,7 @@ Below is a summary of the main tables/datasets used in this project, including t
 
 ---
 
-## Technologies UsedD:
+## Technologies Used:
 
 **Languages & Core Libraries:**\
 _Python_ – primary language for data analysis and project development\
