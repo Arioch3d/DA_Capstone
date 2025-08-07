@@ -10,51 +10,6 @@ This project uses the `SuperHero.ipynb` Jupyter Notebook to analyze and visualiz
 
 ---
 
-## Project Summary
-
-This project analyzes comic book superheroes from DC Comics and Marvel Comics using Python, Pandas, Matplotlib, Seaborn, and SQLite. The workflow includes:
-
-Data Import: Multiple CSV files are loaded for DC, Marvel, hero attributes, and powers.
-
-Data Cleaning: Null values are replaced with 'Unknown', and further filtering removes 'Unknown' and nulls for analysis.
-
-Database Integration: Cleaned data is imported into SQLite tables for efficient querying and joining.
-
-Filtering: Only DC and Marvel heroes are included in the powers table.
-
-Analysis Functions:
-Gender distribution and deceased hero ratios by publisher.
-
-    Pie charts and bar charts visualize gender and creation year trends.
-
-    SQL joins display hero stats and powers together.
-
-Visualization: Results are shown using pie charts (with legend showing sex count and percent) and bar charts (by year and gender).
-
-The project provides interactive analysis and clear visualizations to explore the diversity and history of comic book heroes
-
----
-
-## Project Setup Instructions:
-
-Copy the code link to this repository and clone to your computer.
-
-Open the repository folder in a code editor; and create the virtual environment in that folder.
-
-Create and Activate a Virtual Environment (commands in table below)
-
-Install the requirements.txt file
-You can install the required libraries using:
-`bash
-        pip install pandas matplotlib seaborn numpy
-    `
-
-Start by opening `SuperHero.ipynb` Jupyter Notebook to analyze and visualize superhero data from DC Comics and Marvel Comics.
-
-When you are finished, deactivate the virtual environment and close the repository folder.
-
----
-
 ### Setting up the Virtual Environment
 
 Virtual Environment Commands
@@ -63,6 +18,24 @@ Virtual Environment Commands
 - To Activate the Virtual Environment type `venv/Scripts/activate` (For Mac use: `venv/bin/activate`)
 - To Install the requirements, type `pip install -r requirements.txt`
 - To Deactivate the virtual environment type `deactivate`
+
+## Project Setup Instructions:
+
+Copy the code link to this repository and clone to your computer.
+
+Open the repository folder in a code editor; and create the virtual environment in that folder.
+
+Create and Activate a Virtual Environment (commands above)
+
+Install the requirements.txt file
+You can install the required libraries using:
+`bash
+        pip install pandas matplotlib seaborn numpy
+    `
+
+When you are finished, deactivate the virtual environment and close the repository folder.
+
+---
 
 ### 1. **Requirements**
 
@@ -207,3 +180,5 @@ Superhero Characters and Powers: https://www.kaggle.com/datasets/baraazaid/super
 I would like to try and use BeautifulSoup to scrub superheroapi.com into my database to ensure I have the latest data for each character. However when I tried importing it, I successfully installed the package but I consistently ran into an error stating 'No module named 'beautifulsoup4''
 
 ## Project Summary
+
+In my research, I found that there were more genders than just Male and Female like I originally thought. Also that there were a lot more Female deceased characters from both Publishers than I knew about.
