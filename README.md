@@ -55,13 +55,13 @@ When you are finished, deactivate the virtual environment and close the reposito
 
 ## Setting up the Virtual Environment
 
-| Virtual Environment Commands |
-| Command | Linux/Mac | Windows/GitBash |
-| Create | source venv/bin/activate | source venv/Scripts/activate |
-| Activate | Linux/Mac | Windows/GitBash |
-| Install | pip install -r requirements.txt | pip install -r requirements.txt |
-| Deactivate | deactivate | deactivate |
+Virtual Environment Commands
 | ---------------- | ------------------------------------------------- |
+Command Linux/Mac Windows/GitBash
+Create python3 -m venv venv python -m venv venv
+Activate source venv/bin/activate source venv/Scripts/activate
+Install pip install -r requirements.txt pip install -r requirements.txt
+Deactivate deactivate deactivate
 
 ### 1. **Requirements**
 
