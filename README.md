@@ -53,6 +53,8 @@ When you are finished, deactivate the virtual environment and close the reposito
 
 ---
 
+## Setting up the Virtual Environment
+
 | Virtual Environment Commands |
 | Command | Linux/Mac | Windows/GitBash |
 | Create | source venv/bin/activate | source venv/Scripts/activate |
