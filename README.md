@@ -149,24 +149,25 @@ Below is a summary of the main tables/datasets used in this project, including t
 
 ## Technologies UsedD:
 
-Languages & Core Libraries:
-Python – primary language for data analysis and project development
-Pandas – for data cleaning, transformation, and analysis
+**Languages & Core Libraries:**\
+_Python_ – primary language for data analysis and project development\
+_Pandas_ – for data cleaning, transformation, and analysis
 
-Visualization Tools:
-Matplotlib – for basic charts and static visualizations
-Plotly – for interactive graphs and visual exploration
+**Visualization Tools:**\
+_Matplotlib_ – for basic charts and static visualizations\
+_Plotly_ – for interactive graphs and visual exploration\
+_Tableau_ – for building interactive dashboards and communicating insights visually
 
-Data Storage & Querying:
-SQLite – for lightweight, file-based data storage and SQL querying
+**Data Storage & Querying:**\
+_SQLite_ – for lightweight, file-based data storage and SQL querying
 
-Development Environment:
-Jupyter Notebook – for exploratory data analysis and documenting workflows
-VS Code – for script development and file management
+**Development Environment:**\
+_Jupyter Notebook_ – for exploratory data analysis and documenting workflows\
+_VS Code_ – for script development and file management
 
-Version Control & Documentation:
-Git & GitHub – for version control and project sharing
-Markdown – for notes, documentation, and explanations
+**Version Control & Documentation:**\
+_Git & GitHub_ – for version control and project sharing\
+_Markdown_ – for notes, documentation, and explanations
 
 ---
 
