@@ -21,19 +21,20 @@ Virtual Environment Commands
 
 ## Project Setup Instructions:
 
-Copy the code link to this repository and clone to your computer.
+- For the repository and clone to your computer.
 
-Open the repository folder in a code editor; and create the virtual environment in that folder.
+- Open the repository folder in a code editor; and create the virtual environment in that folder.
 
-Create and Activate a Virtual Environment (commands above)
+- Create and Activate a Virtual Environment (commands above)
 
-Install the requirements.txt file
-You can install the required libraries using:
-`bash
-        pip install pandas matplotlib seaborn numpy
-    `
+- Install the requirements.txt file
 
-When you are finished, deactivate the virtual environment and close the repository folder.
+  - You can install the required libraries using:
+    `bash
+  pip install pandas matplotlib seaborn numpy
+`
+
+- When you are finished, deactivate the virtual environment and close the repository folder.
 
 ---
 
