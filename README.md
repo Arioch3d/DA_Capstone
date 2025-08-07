@@ -1,28 +1,55 @@
 # SuperHero Data Analysis Notebook
 
+## Project Overview
+
 ## Overview
 
 This project uses the `SuperHero.ipynb` Jupyter Notebook to analyze and visualize superhero data from DC Comics and Marvel Comics. The notebook loads, cleans, merges, and explores several CSV datasets, and stores them in a SQLite database for advanced querying and analysis.
 
 ---
 
-Project Summary
+## Project Summary
+
 This project analyzes comic book superheroes from DC Comics and Marvel Comics using Python, Pandas, Matplotlib, Seaborn, and SQLite. The workflow includes:
 
 Data Import: Multiple CSV files are loaded for DC, Marvel, hero attributes, and powers.
+
 Data Cleaning: Null values are replaced with 'Unknown', and further filtering removes 'Unknown' and nulls for analysis.
+
 Database Integration: Cleaned data is imported into SQLite tables for efficient querying and joining.
+
 Filtering: Only DC and Marvel heroes are included in the powers table.
+
 Analysis Functions:
 Gender distribution and deceased hero ratios by publisher.
-Pie charts and bar charts visualize gender and creation year trends.
-SQL joins display hero stats and powers together.
+
+    Pie charts and bar charts visualize gender and creation year trends.
+
+    SQL joins display hero stats and powers together.
+
 Visualization: Results are shown using pie charts (with legend showing sex count and percent) and bar charts (by year and gender).
+
 The project provides interactive analysis and clear visualizations to explore the diversity and history of comic book heroes
 
 ---
 
-## Getting Started
+## Project Setup Instructions:
+
+Copy the code link to this repository and clone to your computer.
+
+Open the repository folder in a code editor; and create the virtual environment in that folder.
+
+Create and Activate a Virtual Environment (commands in table below)
+
+Install the requirements.txt file
+You can install the required libraries using:
+`bash
+        pip install pandas matplotlib seaborn numpy
+    `
+
+Start by opening `SuperHero.ipynb` Jupyter Notebook to analyze and visualize superhero data from DC Comics and Marvel Comics.
+
+When you are finished, deactivate the virtual environment and close the repository folder.
 
 ### 1. **Requirements**
 
@@ -34,14 +61,6 @@ The project provides interactive analysis and clear visualizations to explore th
   - seaborn
   - numpy
   - sqlite3
-
-You can install the required libraries using:
-
-```bash
-pip install pandas matplotlib seaborn numpy
-```
-
----
 
 ### 2. **Data Files**
 
@@ -142,40 +161,6 @@ Below is a summary of the main tables/datasets used in this project, including t
 
 ---
 
-### 4. **How to Use the Notebook**
-
-1. **Open `SuperHero.ipynb` in Jupyter Notebook or VS Code.**
-
-2. **Run the notebook cells in order:**
-
-   - The notebook will:
-     - Import all required libraries.
-     - Load the CSV files into pandas DataFrames.
-     - Display sample data and column names for exploration.
-     - Filter and clean the data as needed.
-     - Create and populate SQLite tables for each dataset.
-     - Provide functions for interactive analysis and visualization.
-
-3. **Key Functions:**
-
-   - **hero_gender_distribution():**  
-     Prompts for a publisher and displays the gender distribution of heroes in a line chart.
-   - **deceased_hero_gender_ratio():**  
-     Prompts for a publisher and shows the gender ratio of deceased heroes using a horizontal bar chart.
-   - **join_publisher_with_powers_and_display():**  
-     Prompts for a publisher and displays a merged table of heroes and their powers. This uses a SQL Join Statement.
-   - **hero_gender_exploded_pie_chart():**  
-     Prompts for a publisher and displays a pie chart based on the Gender of the heroes. Shows a count of each gender as well as a percentage of the data set. This is an exploded pie chart to make it easier to read the lower values.
-   - **hero_year_40yr_bar_chart():**  
-     Displays a vertical bar chart based on how many characters were released by publisher every 40 years.
-   - **hero_year_40yr_bar_chart_by_sex():**  
-     Displays a vertical bar chart based on how many characters were released by publisher every 40 years seperating each section by gender.
-
-4. **Custom Queries:**  
-   You can modify or add new SQL queries and pandas operations to explore the data further.
-
----
-
 ## Example Usage
 
 - To see the gender distribution for DC Comics heroes, run the cell with `hero_gender_distribution()` and enter `DC Comics` when prompted.
@@ -207,3 +192,5 @@ Comic Characters: https://www.kaggle.com/datasets/vipulgote4/comic-characters/da
 Superhero Characters and Powers: https://www.kaggle.com/datasets/baraazaid/superherodb?resource=download (plan on using this as a look-up to display the abilities of each hero)
 
 I would like to try and use BeautifulSoup to scrub superheroapi.com into my database to ensure I have the latest data for each character. However when I tried importing it, I successfully installed the package but I consistently ran into an error stating 'No module named 'beautifulsoup4''
+
+## Project Summary
