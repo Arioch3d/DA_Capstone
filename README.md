@@ -14,18 +14,13 @@ This project uses the `SuperHero.ipynb` Jupyter Notebook to analyze and visualiz
 
 ## Project Setup Instructions:
 
-- For the repository and clone to your computer.
+- Fork the repository and clone to your computer.
 
 - Open the repository folder in a code editor; and create the virtual environment in that folder.
 
 - Create and Activate a Virtual Environment (commands below)
 
 - Install the requirements.txt file
-
-  - You can install the required libraries using:
-    `bash
-  pip install pandas matplotlib seaborn numpy
-`
 
 - Run the `SuperHero.ipynb`
 
