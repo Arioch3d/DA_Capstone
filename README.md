@@ -147,6 +147,29 @@ Below is a summary of the main tables/datasets used in this project, including t
 
 ---
 
+## Technologies UsedD:
+
+Languages & Core Libraries:
+Python – primary language for data analysis and project development
+Pandas – for data cleaning, transformation, and analysis
+
+Visualization Tools:
+Matplotlib – for basic charts and static visualizations
+Plotly – for interactive graphs and visual exploration
+
+Data Storage & Querying:
+SQLite – for lightweight, file-based data storage and SQL querying
+
+Development Environment:
+Jupyter Notebook – for exploratory data analysis and documenting workflows
+VS Code – for script development and file management
+
+Version Control & Documentation:
+Git & GitHub – for version control and project sharing
+Markdown – for notes, documentation, and explanations
+
+---
+
 ## Example Usage
 
 - To see the gender distribution for DC Comics heroes, run the cell with `hero_gender_distribution()` and enter `DC Comics` when prompted.
@@ -168,27 +191,6 @@ Below is a summary of the main tables/datasets used in this project, including t
 - If you add new data, re-run the relevant cells to update the database and DataFrames.
 
 ---
-
-## TECHNOLOGIES USED:
-
-Languages & Core Libraries:
-Python – primary language for data analysis and project development
-Pandas – for data cleaning, transformation, and analysis
-
-Visualization Tools:
-Matplotlib – for basic charts and static visualizations
-Plotly – for interactive graphs and visual exploration
-
-Data Storage & Querying:
-SQLite – for lightweight, file-based data storage and SQL querying
-
-Development Environment:
-Jupyter Notebook – for exploratory data analysis and documenting workflows
-VS Code – for script development and file management
-
-Version Control & Documentation:
-Git & GitHub – for version control and project sharing
-Markdown – for notes, documentation, and explanations
 
 ## Data Sources
 
