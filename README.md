@@ -53,7 +53,7 @@ When you are finished, deactivate the virtual environment and close the reposito
 
 ---
 
-## Setting up the Virtual Environment
+### Setting up the Virtual Environment
 
 Virtual Environment Commands
 | ---------------- | ------------------------------------------------- |
