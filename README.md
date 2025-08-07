@@ -12,12 +12,14 @@ This project uses the `SuperHero.ipynb` Jupyter Notebook to analyze and visualiz
 
 ### Setting up the Virtual Environment
 
-Virtual Environment Commands
+## Virtual Environment Commands
 
-- To Create the Virtual Environment type `python3 -m venv venv`
-- To Activate the Virtual Environment type `venv/Scripts/activate` (For Mac use: `venv/bin/activate`)
-- To Install the requirements, type `pip install -r requirements.txt`
-- To Deactivate the virtual environment type `deactivate`
+| **Command** | **Linux/Mac**                     | **Windows/GitBash**               |
+| ----------- | --------------------------------- | --------------------------------- |
+| Create      | `python3 -m venv venv`            | `python -m venv venv`             |
+| Activate    | `source venv/bin/activate`        | `source venv/Scripts/activate`    |
+| Install     | `pip install -r requirements.txt` | `pip install -r requirements.txt` |
+| Deactivate  | `deactivate`                      | `deactivate`                      |
 
 ## Project Setup Instructions:
 
