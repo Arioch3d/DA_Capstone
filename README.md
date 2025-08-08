@@ -39,29 +39,7 @@ This project uses the `SuperHero.ipynb` Jupyter Notebook to analyze and visualiz
 
 ---
 
-### 1. **Requirements**
-
-- Python 3.x
-- Jupyter Notebook
-- Required libraries:
-  - pandas
-  - matplotlib
-  - seaborn
-  - numpy
-  - sqlite3
-
-### 2. **Data Files**
-
-Place the following CSV files in a `data/` folder in your project directory:
-
-- `dc-wikia-data_updated.csv`
-- `marvel-wikia-data_update.csv`
-- `superheroes_data.csv`
-- `superheroes.csv`
-
----
-
-## 3. **Data Dictionary**
+## **Data Dictionary**
 
 Below are the main columns used in the superhero datasets and their descriptions:
 
