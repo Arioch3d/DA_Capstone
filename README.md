@@ -2,7 +2,8 @@
 
 ## Objective
 
-I was wondering what the gender spread looks like for comics through time. I also wanted a way to compare information about comic characters between the two major comic companies and if there have been any female characters that are deceased and if so, what's the percent of female to male deaths throughout the years.
+This project looks to answer the question: How has gender representation and character mortality changed in comics over time, and do these patterns differ between the two biggest publishers?
+This project will dig into the gender balance of comic book characters through the years, compare trends between Marvel and DC, and look at how many female versus male characters have been killed off.
 
 ## Overview
 
@@ -185,4 +186,12 @@ I would like to try and use BeautifulSoup to scrub superheroapi.com into my data
 
 ## Project Summary
 
-In my research, I found that there were more genders than just Male and Female like I originally thought. Also that there were a lot more Female deceased characters from both Publishers than I knew about.
+This project set out to answer the question: How has gender representation and character mortality changed in comics over time, and do these patterns differ between Marvel and DC? The goal was to track the gender balance of comic book characters through the years, compare trends between the major companies, and examine how often female versus male characters have been killed off.
+The analysis revealed that gender representation in comics is more diverse than the traditional male/female binary, with several additional gender categories appearing in character records. While there have historically been far more male characters than female characters, the data showed that female deaths occurred more frequently than expected across both major publishers.
+
+Key Findings:
+
+- Gender representation in comics is more diverse than the traditional male/female binary, with several additional gender categories, such as Transgender and Genderless.
+
+- While there have historically been far more male characters than female characters, the data showed that female deaths occurred more frequently than expected across both major publishers.
+- Data Limitations, Inconsistencies, or Issues: The datasets I used had several fields that were inconsistent, like "First Appearance" and "Sexual Preference". Marvel's Data Set had the 3 character Month - 2 character Year of the characters first appearance, while the DC Data Set had it as Full Year, Full Month. Also, Marvel Data Set had several characters sexual preference but not for the majority of the characters and the DC Data Set didn't even list this column. So, although it would have been nice to see how these characteristics lined up between the 2 publishers I didn't pursue this line of questions.
