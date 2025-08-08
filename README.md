@@ -190,8 +190,8 @@ The analysis revealed that gender representation in comics is more diverse than 
 
 Key Findings:
 
-Gender representation in comics is more diverse than the traditional male/female binary, with several additional gender categories, such as Transgender and Genderless./
+Gender representation in comics is more diverse than the traditional male/female binary, with several additional gender categories, such as Transgender and Genderless.
 
-While there have historically been far more male characters than female characters, the data showed that female deaths occurred more frequently than expected across both major publishers./
+While there have historically been far more male characters than female characters, the data showed that female deaths occurred more frequently than expected across both major publishers.
 
-Data Limitations, Inconsistencies, or Issues: The datasets I used had several fields that were inconsistent, like `First Appearance` and `Sexual Preference`. Marvel's Data Set had the `3 character Month - 2 character Year` of the characters first appearance, while the DC Data Set had it as `Full Year, Full Month`. Also, Marvel Data Set had several characters `sexual preference` but not for the majority of the characters and the DC Data Set didn't even list this column. So, although it would have been nice to see how these characteristics lined up between the 2 publishers I didn't pursue this line of questions./
+Data Limitations, Inconsistencies, or Issues: The datasets I used had several fields that were inconsistent, like `First Appearance` and `Sexual Preference`. Marvel's Data Set had the `3 character Month - 2 character Year` of the characters first appearance, while the DC Data Set had it as `Full Year, Full Month`. Also, Marvel Data Set had several characters `sexual preference` but not for the majority of the characters and the DC Data Set didn't even list this column. So, although it would have been nice to see how these characteristics lined up between the 2 publishers I didn't pursue this line of questions.
